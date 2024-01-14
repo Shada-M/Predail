@@ -1,0 +1,260 @@
+body{
+    margin:2%; 
+    padding:2%; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+   
+}
+
+
+nav {
+    background-color: #483d8b;
+    border-radius: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size:0.8em;
+}
+
+nav img {
+    width: 10%; 
+    object-fit: fill;
+    position: relative;
+    left:40%; 
+}
+
+#nav-links {
+    display:flex; 
+    justify-content: space-between;
+    align-items: left;
+    flex-direction: row;
+    margin: 2% 4%;
+    flex-grow: 0.2;
+}
+
+nav button {
+background-color: white;
+color: #483d8b; 
+font-weight: bold;
+border: none;
+border-radius: 50px;
+font-size: 1em;
+margin: 2% 4%; 
+position: relative;
+right: 10%;
+width: 8em;
+height: 3em;
+
+}
+
+#main {
+   background-color: #483d8b; 
+   border-radius: 40px;
+   height: 650px;
+}
+
+#main-1 {
+margin-top: 2%;
+display: flex;
+flex-direction: row;
+margin: 2%; 
+padding:2%; 
+position: relative;
+left: 10%;
+
+}
+
+#sub1-main1{
+width: 30%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#main-img {
+align-items: center;
+width: 50%;
+margin: 5%;
+
+}
+
+#main-img img{
+    width: 50%; 
+    object-fit: cover;
+    position: relative;
+    left: 20%;
+}
+
+#main-link {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%; 
+    align-items: left;
+    margin-top: 4%;
+    position: relative;
+    right: 10%;
+}
+
+#main-link a{
+
+    text-decoration: none;
+}
+
+#free{
+
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 500;
+    width:8em; 
+    height:1.5em; 
+    text-align: center;
+    align-items: center;
+    color: #483d8b;
+
+}
+
+#learn {
+color: white;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 4em;
+    color: white;
+    margin-bottom: 5%;
+}
+
+#sub1-main1 p {
+    color: white;
+    text-align: left;
+    width: 100%; 
+    
+}
+
+#main-2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h6{
+    color:white; 
+    font-size: 1em;
+    font-weight: 100;
+    margin-bottom: 0;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+#students {
+    
+    background-color: rgb(83, 74, 147, 0.9);
+    width: 7em;
+    height: 6em; 
+    border-radius: 10px;
+    border-color: #ecebf1;
+    border-width: 0.1em;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(142, 146, 117, 0.8);
+    position: relative;
+    left: 10%;
+    
+
+}
+
+#students p{
+
+    color: white;
+    font-weight: 100;
+    font-size: 0.8em;
+    text-align: left;
+    margin-left: 5%;
+}
+
+h5 {
+
+    color:white; 
+    font-size: 1em;
+    font-weight: 100;
+    background-color: rgb(83, 74, 147, 0.9);
+    width: 6em;
+    height: 1.5em; 
+    border-radius: 15px;
+    border-color: #ecebf1;
+    border-width: 0.1em;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgba(142, 146, 117, 0.8);
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 70%;
+    left: 50%;
+
+}
+
+#links-menu {
+    background-color: #483d8b;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2%;
+    height: 80px;
+}
+
+#links-menu a {
+    text-decoration: none;
+    color: white; 
+    font-size: 2em;
+
+}
+
+#features {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    left: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#last {
+    width: 30%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: left; 
+    background-color: rgb(247, 246, 244);
+    position:relative; 
+    left:32%; 
+    border-radius: 20px;
+    padding: 2em;
+}
+
+
+#last img{
+    width: 20%;
+    object-fit: cover;
+}
+
+#last a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 20%;
+   
+    
+
+}
+
